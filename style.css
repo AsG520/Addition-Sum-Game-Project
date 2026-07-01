@@ -1,0 +1,202 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(to right, #004e92, #000428);
+    font-family: 'Outfit';
+}
+
+#restart {
+    width: 60px;
+    height: 30px;  
+    font-size: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-color: none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 8px 1px white;
+    animation-name: slowFade;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1;
+    animation-delay: 0s;
+    animation-play-state: running;
+    transform: translateY(35px);
+    animation-duration: 5s;
+    backdrop-filter: blur(1px);
+    font-family: 'Outfit'; 
+}
+
+#submit {
+    width: 60px;
+    height: 30px;  
+    font-size: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-color: none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 8px 1px white;
+    animation-name: slowFade;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1;
+    animation-delay: 0s;
+    animation-play-state: running;
+    transform: translateY(35px);
+    animation-duration: 5s;
+    backdrop-filter: blur(1px);
+    font-family: 'Outfit';
+    transform: translateY(25px);
+}
+
+#score {
+    width: 50px;
+    text-align: center;
+    animation-name: slowFade;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-duration: 5s;
+    font-family: 'Outfit';
+    transform: translateY(10px);
+}
+
+#box {
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    color: black;
+    font-weight: 650;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    background-color: white;
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 20px;
+    animation-name: slowFade;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-duration: 5s;
+    font-family: 'Outfit';
+}
+
+#input {
+    border: none;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #000428;
+    color: white;
+    text-align: center;
+    animation-name: slowFade;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-duration: 5s;
+    font-family: 'Outfit';
+    transform: translateY(5px);
+    box-shadow: 0px 0px 15px 0px #000428;
+}
+
+#container {
+    width: 180px;
+    height: 250px;
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    animation-name: boxHeartBeat;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 5s;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 15px 0px white;
+    font-family: 'Outfit';
+}
+
+#box-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#restart-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transform: translateY(15px);
+    animation-name: slowFade;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-duration: 5s;
+}
+
+#submit-container, #input-container, #score-container {
+    display: flex;
+    justify-content: center;
+}
+
+#number-one, #number-two, #number-three, #number-four, #number-five, #number-six, #number-seven, #number-eight, #number-nine, #number-zero, #back-space {
+    width: 40px;
+    height: 25px;
+    border-radius: 10px;
+    border-top: none;
+    border-bottom: none; 
+    border-left: none;
+    border-right: none;
+    font-weight: 550;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+#number-one:hover, #number-twp:hover, #number-three:hover, #number-four:hover, #number-five:hover, #number-six:hover, #number-seven:hover, #number-eight:hover, #number-nine:hover, #number-zero:hover, #back-space:hover, #submit:hover, #restart:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#number-one:active, #number-two:active, #number-three:active, #number-four:active, #number-five:active, #number-six:active, #number-seven:active, #number-eight:active, #number-nine:active, #number-zero:active, #back-space:active {
+    transform: translateY(1px);
+}
+
+@keyframes boxHeartBeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes slowFade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
