@@ -1,5 +1,8 @@
 # Addition Sum Game Project
 
+Visual of Design
+<img width="330" height="391 alt="Image" src="https://github.com/user-attachments/assets/bf51de58-e2d6-4935-a329-9d581cca062f" />
+
 Features in Design
 
 Math Concept in Design
