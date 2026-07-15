@@ -3,6 +3,7 @@
 Features in Design
 
 Math Concept in Design
+- Addition of Real Numbers.
 
 How it Works
 
