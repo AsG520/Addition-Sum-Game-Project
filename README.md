@@ -1,6 +1,7 @@
 # Addition Sum Game Project
 
 Visual of Design
+<br>
 <img width="330" height="391" alt="Image" src="https://github.com/user-attachments/assets/63fca035-3179-4a8f-8275-775d38af81af" />
 
 Features in Design
