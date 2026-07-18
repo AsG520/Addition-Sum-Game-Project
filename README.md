@@ -5,6 +5,13 @@ Visual of Design
 <img width="330" height="391" alt="Image" src="https://github.com/user-attachments/assets/63fca035-3179-4a8f-8275-775d38af81af" />
 
 Features in Design
+- Includes transparent number buttons with strong white foreground.
+- Live one digit sum display at top of page.
+- Visual appealing smoke effect around perimeter.
+- Enhanced with smart score tracker for user purposes.
+- Clean smooth looking submit and restart button positioned at bottom of page.
+- Dark input field incorporated for user answer.
+- Computer checks if user answer is correct, ensuring no error occur. 
 
 Math Concept in Design
 - Addition of Real Numbers.
