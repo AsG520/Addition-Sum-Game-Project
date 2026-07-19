@@ -17,6 +17,12 @@ Math Concept in Design
 - Addition of Real Numbers.
 
 How it Works
+- Only one or two digit real number sum questions are placed.
+- Answer the following questions displayed at top of game.
+- Aim to receive a total of ten points, meaning you have won the entire game.
+- One point loss for correct answer and one point loss for wrong answer.
+- User must click submit button to approve final answer.
+- To restart game, clicking the restart button will set all points to zero and generate new sum.
 
 Requirements
 - IDE (e.g., VS Code, Eclipse, or IntelliJ).
