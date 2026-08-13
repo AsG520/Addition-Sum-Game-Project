@@ -1,6 +1,6 @@
-# Addition Sum Game Project
+# ➕ Addition Sum Game Project
 
-## Table of Contents
+## 📘 Table of Contents
 - Visual of Design
 - Features in Design
 - Math Concept in Design
@@ -8,10 +8,10 @@
 - Requirements
 - How to Run
 
-## Visual of Design
+## 🎨 Visual of Design
 <img width="330" height="391" alt="Image" src="https://github.com/user-attachments/assets/63fca035-3179-4a8f-8275-775d38af81af" />
 
-## Features in Design
+## 🔥 Features in Design
 - Includes transparent number buttons with strong white foreground.
 - Live one digit sum display at top of page.
 - Visual appealing smoke effect around perimeter.
@@ -20,10 +20,10 @@
 - Dark input field incorporated for user answer.
 - Computer checks if user answer is correct, ensuring no error occur. 
 
-## Math Concept in Design
+## 📝 Math Concept in Design
 - Addition of Real Numbers.
 
-## How it Works
+## 🛠️ How it Works
 - Only one or two digit real number sum questions are placed.
 - Answer the following questions displayed at top of game.
 - Aim to receive a total of ten points, meaning you have won the entire game.
@@ -31,13 +31,14 @@
 - User must click submit button to approve final answer.
 - To restart game, clicking the restart button will set all points to zero and generate new sum.
 
-## Requirements
+## 🎯 Requirements
 - IDE (e.g., VS Code, Eclipse, or IntelliJ).
 - HTML (HyperText Markup Language).
 - CSS (Cascading Style Sheets).
 - JS (JavaScript).
 - Live Reloading or Hot Reloading (e.g., Live Server, and etc).
-## How to Run
+
+## 💻 How to Run
 1) Copy the HTML code into a HTML file named "index.html".
 2) Copy the CSS code into a CSS file named "style.css".
 3) Copy the JS code into a JS file named "function.js".
