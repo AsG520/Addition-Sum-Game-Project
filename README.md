@@ -8,6 +8,9 @@
 - 🎯 Requirements
 - 💻 How to Run
 
+## 🎬 Video Clip of Design
+https://github.com/user-attachments/assets/dd6c2d97-1777-4baf-a5a7-83dd3e795c2f
+
 ## 🎨 Visual of Design
 <img width="330" height="391" alt="Image" src="https://github.com/user-attachments/assets/63fca035-3179-4a8f-8275-775d38af81af" />
 
